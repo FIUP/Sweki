@@ -9,7 +9,9 @@ fi
 
 echo "\documentclass[a4paper]{article}" > sweki.tex
 echo "\usepackage[T1]{fontenc}" >> sweki.tex
+echo "\usepackage{lmodern}" >> sweki.tex
 echo "\usepackage[utf8]{inputenc}" >> sweki.tex
+echo "\usepackage[a4paper,top=3cm,bottom=3.5cm,left=2.5cm,right=2.5cm]{geometry}" >> sweki.tex
 echo "\usepackage[english,italian]{babel}" >> sweki.tex
 echo "\usepackage{microtype}" >> sweki.tex
 echo "\usepackage{booktabs}" >> sweki.tex
